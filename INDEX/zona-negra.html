@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Botones Centrados</title>
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
+    }
+
+    .centered-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+    }
+
+    .button-group {
+      display: flex;
+      flex-direction: column;
+      gap: 35px;
+    }
+
+    .button-link {
+      display: inline-block;
+      text-align: center;
+      padding: 20px 60px;
+      font-size: 20px;
+      cursor: pointer;
+      border: none;
+      border-radius: 12px;
+      background-color: #ffffff;
+      color: #333;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .button-link:hover {
+      box-shadow: 0 0 14px 4px #7fffd4;
+      background-color: #f0f0f0;
+    }
+  </style>
+</head>
+<body>
+  <div class="centered-container">
+    <div class="button-group">
+      <a href="Linea1.html" class="button-link">Linea 1</a>
+      <a href="Linea2.html" class="button-link">Linea 2</a>
+      <a href="Linea3.html" class="button-link">Linea 3</a>
+      <a href="Linea4.html" class="button-link">Linea 4</a>
+      <a href="Linea5.html" class="button-link">Linea 5</a>
+    </div>
+  </div>
+</body>
+</html>

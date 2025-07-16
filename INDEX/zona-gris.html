@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Botones con redirección</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #000;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .button-group {
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+    }
+
+    button {
+      padding: 18px 50px;
+      font-size: 18px;
+      border: none;
+      border-radius: 10px;
+      background-color: #ffffff;
+      color: #000;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    button:hover {
+      box-shadow: 0 0 12px 3px #7fffd4;
+      background-color: #f0f0f0;
+    }
+  </style>
+</head>
+<body>
+  <div class="button-group">
+    <button onclick="window.location.href='Linea1.html'">Linea 1</button>
+    <button onclick="window.location.href='Linea1.html'">Linea 2</button>
+    <button onclick="window.location.href='Linea1.html'">Linea 3</button>
+    <button onclick="window.location.href='Linea1.html'">Linea 4</button>
+  </div>
+</body>
+</html>
